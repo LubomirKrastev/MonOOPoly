@@ -216,17 +216,6 @@ Would you like to save the game? (y/n):
 
 ---
 
-## 🧹 Repository Hygiene
-
-The `.gitignore` already excludes `x64/`, `.vs/`, `*.obj`, `*.pdb`, etc., but some of those may have been committed before it took effect. To clean them out from the tracked tree (they'll stay on your disk):
-
-```bash
-git rm -r --cached x64 .vs MonOOPoly/x64
-git commit -m "chore: stop tracking build artifacts"
-```
-
----
-
 ## 👤 Author
 
 **Lyubomir Krastev**
