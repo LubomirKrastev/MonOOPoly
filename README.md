@@ -203,19 +203,6 @@ When only one solvent player remains, the game prints a winner banner and then a
 Would you like to save the game? (y/n):
 ```
 
----
-
-## 🗺️ Possible Extensions
-
-- [ ] Wire the existing `Trade` class into the turn flow so players can propose swaps
-- [ ] Activate `Cottage` / `Castle` rent multipliers as in-game purchasable upgrades
-- [ ] Add an auction mechanic when a player declines to buy
-- [ ] Unit tests for `Vector<T>`, `MyString`, and rent / monopoly logic
-- [ ] A simple graphical UI (SFML or Qt) on top of the same core
-- [ ] AI opponents
-
----
-
 ## 👤 Author
 
 **Lyubomir Krastev**
